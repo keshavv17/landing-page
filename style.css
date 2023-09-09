@@ -55,7 +55,7 @@ ul {
     max-width: 600px;
 }
 
-button {
+.top {
     width: 100px;
     padding: 8px;
     font-size: large;
@@ -95,3 +95,60 @@ button {
     margin: 80px;
     margin-top: 40px;
 }
+
+.quote {
+    max-width: 500px;
+    background-color: #E5E7EB;
+    font-size: 25px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.quote-box {
+    justify-content: space-around;
+    background-color: #E5E7EB;
+    display: flex;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 100px;
+}
+
+.call-to-action {
+    display: flex;
+    background-color:#3882F6;
+    margin: 70px;
+    margin-right: 200px;
+    margin-left: 200px;
+    padding: 60px;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+
+.first {
+    color: white;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.sub {
+    color: white;
+}
+
+.sign-up {
+    background-color: #3882F6;
+    border: 2px solid white;
+    color: #F9FAF8;
+    border-radius: 8px;
+    margin: 12px;
+    padding: 15px;
+}
+
+.footer {
+    display: flex;
+    margin-top: auto;
+    background-color: #1f2937;
+    color: white;
+    padding: 15px;
+    justify-content: center;
+}
+
